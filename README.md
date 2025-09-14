@@ -1,7 +1,7 @@
-![GitHub license](https://img.shields.io/github/license/torresflo/Spriters-Resource-Downloader.svg)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-![GitHub contributors](https://img.shields.io/github/contributors/torresflo/Spriters-Resource-Downloader.svg)
-![GitHub issues](https://img.shields.io/github/issues/torresflo/Spriters-Resource-Downloader.svg)
+[![GitHub license](https://img.shields.io/github/license/qx6ghqkz/Spriters-Resource-Downloader.svg)](https://github.com/qx6ghqkz/Spriters-Resource-Downloader/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/qx6ghqkz/Spriters-Resource-Downloader/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/qx6ghqkz/Spriters-Resource-Downloader.svg)](https://github.com/qx6ghqkz/Spriters-Resource-Downloader/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/qx6ghqkz/Spriters-Resource-Downloader.svg)](https://github.com/qx6ghqkz/Spriters-Resource-Downloader/issues)
 
 <p align="center">
   <h1 align="center">Spriters Resource Downloader</h3>
@@ -9,7 +9,7 @@
   <p align="center">
     A downloader for the website <a href="https://www.spriters-resource.com">Spriters Resource</a>
     <br />
-    <a href="https://github.com/torresflo/Spriters-Resource-Downloader/issues">Report a bug or request a feature</a>
+    <a href="https://github.com/qx6ghqkz/Spriters-Resource-Downloader/issues">Report a bug or request a feature</a>
   </p>
 </p>
 
@@ -30,7 +30,7 @@ This repository contains a command line application to simply download all sprit
 
 ## Getting Started
 
-For users, you can just download the [latest release](https://github.com/torresflo/Spriters-Resource-Downloader/releases/latest) of the application and jump [here](#usage).
+For users, you can just download the [latest release](https://github.com/qx6ghqkz/Spriters-Resource-Downloader/releases/latest) of the application and jump [here](#usage).
 
 Next information is mainly dedicated to developers who wants to run the application in a more pythonish way.
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ### Installation
 
-Follow the instructions above then clone the repo (`git clone https:://github.com/torresflo/Spriters-Resource-Downloader.git`).\
+Follow the instructions above then clone the repo (`git clone https:://github.com/qx6ghqkz/Spriters-Resource-Downloader.git`).\
 You can now launch the app by running `spriters-resource-downloader.py`.
 
 ## Usage
@@ -57,12 +57,12 @@ Just launch the application with:
 
 For users:
 ```
-spriters-resource-downloader.exe [-h] [-v] url
+spriters-resource-downloader.exe [-h] [-v] [--nsfw] url
 ```
 
 For developers:
 ```
-python spriters-resource-downloader.py [-h] [-v] url
+python spriters-resource-downloader.py [-h] [-v] [--nsfw] url
 ```
 
 ### Command line options
@@ -76,6 +76,7 @@ positional arguments:
 optional arguments:
   -h, --help     show this help message and exit
   -v, --verbose  use it to print progress during download
+  --nsfw         use it to enable downloading of NSFW assets
 ```
 
 It is recommended to activate the verbose mode (optional, not activated by default) to keep track of the progress.
